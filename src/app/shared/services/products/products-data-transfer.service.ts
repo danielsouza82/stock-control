@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { table } from 'console';
+//import { table } from 'console';
 import { BehaviorSubject, map, take } from 'rxjs';
 import { GetAllProductsResponse } from 'src/app/models/interfaces/products/response/GetAllProductsResponse';
 
