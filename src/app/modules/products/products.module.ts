@@ -20,7 +20,7 @@ import { ConfirmationService } from 'primeng/api';
 
 
 import { SharedModule } from 'src/app/shared/shared.module';
-import { ProductHomeComponent } from './page/product-home/product-home.component'
+import { ProductHomeComponent } from './page/product-home/products-home.component'
 import { PRODUCT_ROUTES } from './products.routing';
 
 
