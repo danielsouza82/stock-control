@@ -22,11 +22,12 @@ import { ConfirmationService } from 'primeng/api';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { ProductHomeComponent } from './page/product-home/products-home.component'
 import { PRODUCT_ROUTES } from './products.routing';
+import { ProductsTableComponent } from './components/products-table/products-table.component';
 
 
 
 @NgModule({
-  declarations: [ProductHomeComponent,],
+  declarations: [ProductHomeComponent, ProductsTableComponent,],
   imports: [
     CommonModule,
     FormsModule,
